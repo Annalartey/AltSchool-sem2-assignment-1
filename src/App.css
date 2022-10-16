@@ -17,7 +17,7 @@ h1{
   margin: 40px 0;
 }
 .container{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border: 2px solid;
   border-radius: 7px;
   margin: 0 auto;
@@ -54,7 +54,7 @@ h1{
 }
 
 button {
-  background-color: rgb(125, 125, 125);
+  background-color: rgb(255, 255, 255);
   margin: 5px;
   padding: 15px;
   border: none;
@@ -68,6 +68,7 @@ button {
 
 button:hover{
   background-color: rgb(249, 148, 148);
+  box-s
 }
 
 #clear{
@@ -95,5 +96,9 @@ button:hover{
 #result{
   grid-column: 3/5;
   grid-row: 5;
-  background-color:rgb(29, 201, 7);;
+  background-color:rgb(29, 201, 7);
+}
+#result:hover{
+  background-color:rgb(0, 0, 0);
+  color: white;
 }
